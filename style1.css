@@ -1,0 +1,117 @@
+/* Import fonts from google fonts. */
+@import url('https://fonts.googleapis.com/css?family=Cherry+Bomb|Dancing+Script|Germania+One|Girassol|Lobster|Nosifer|Pirata+One|Ribeye&display=swap');
+
+:root{
+    --pink:pink;
+    --black:black;
+    --white:white;
+    --yellow:yellow;
+    --orange:orange;
+    --turquoise:turquoise;
+    --purple:purple;
+    --grey:grey;
+    --brown:brown;
+    --red:red;
+    --blue:blue;
+    --cherry: 'Cherry Bomb', cursive;
+    --lobster: 'Lobster', cursive;
+    --girassol: 'Girassol', cursive;
+    --dancing: 'Dancing Script', cursive;
+    --germania: 'Germania One', cursive;
+    --ribeye: 'Ribeye', cursive;
+    --nosifer: 'Nosifer', cursive;
+    --pirata: 'Pirata One', cursive;
+
+}
+
+.pink{
+    color: pink;
+}
+.black{
+    color:black;
+}
+.white{
+    color:ghostwhite;
+}
+.orange{
+    color:orange;
+}
+.yellow{
+    color:yellow;
+}
+.turquoise{
+    color:turquoise;
+}
+.purple{
+    color:purple;
+}
+.grey{
+    color:grey;
+}
+.brown{
+    color:brown;
+}
+.red{
+    color:red;
+}
+.blue{
+    color:blue;
+}
+.font-cherry{
+    font-family: var(--cherry);
+}
+.font-lobster{
+    font-family: var(--lobster);
+}
+.font-girassol{
+    font-family: var(--girassol);
+}
+.font-dancing{
+    font-family: var(--dancing);
+}
+.font-germania{
+    font-family: var(--germania);
+}
+.font-ribeye{
+    font-family: var(--ribeye);
+}
+.font-nosifer{
+    font-family: var(--nosifer);
+}
+.font-pirata{
+    font-family: var(--pirata);
+}
+.bg-orange{
+    background-color: var(--orange) !important;
+}
+
+.header-links a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container .dropdown-toggle{
+    font-size: 1.0em;
+    font-weight: bold;
+}
+.container .dropdown-item{
+    font-size: 0.8em;
+}
+.navbar-black{
+    color: black;
+}
+.bg-pink{
+    background-color: var(--pink) !important;
+}
+
+.navbar-nav{
+    padding: 0.5em 0em;
+}
+.navbar-nav .nav-link{
+    font-size: 1.1em;
+}
+.img-fluid{
+    height: 400px;
+    width: 90%;
+}
+

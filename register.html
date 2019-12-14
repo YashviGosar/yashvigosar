@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Register</title>
+		<link rel="stylesheet" type="text/css" href="style2.css">
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+	</style>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body>
+		<div class="bimg">
+		<div class="centerdiv">
+			<img src="https://cdn3.iconfinder.com/data/icons/essential-rounded/64/Rounded-31-256.png" id="pic">
+			<h2>CREATE AN ACCOUNT</h2>
+			<br>
+			<form class="form-data font-gelasio font-size-20px" action="register.php" method="post" autocomplete="off">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" class="box" name="username" placeholder="Username" id="username" required>
+				<label for="email">
+					<i class="fas fa-envelope"></i>
+				</label>
+				<input type="email" class="box1" name="email" placeholder="Email-ID" id="email" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" class="box2" name="password" placeholder="Password" id="password" required>
+				
+				<input type="submit" class="sub" value="Create An Account">
+			</form>
+		</div>
+	</body>
+</html>

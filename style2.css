@@ -1,0 +1,137 @@
+*{
+	padding:0;
+	margin: 0;
+	font-family: 'Gelasio', serif;
+}
+
+.font-gelasio{
+	font-family: var(--gelasio);
+}
+
+.bimg{
+	width:100%;
+	height:100vh;
+	background-image: repeating-linear-gradient(190deg, rgba(255, 0, 0, 0.5) 40px,
+        rgba(255, 153, 0, 0.5) 80px, rgba(255, 255, 0, 0.5) 120px,
+        rgba(0, 255, 0, 0.5) 160px, rgba(0, 0, 255, 0.5) 200px,
+        rgba(75, 0, 130, 0.5) 240px, rgba(238, 130, 238, 0.5) 280px,
+        rgba(255, 0, 0, 0.5) 300px),
+      repeating-linear-gradient(-190deg, rgba(255, 0, 0, 0.5) 30px,
+        rgba(255, 153, 0, 0.5) 60px, rgba(255, 255, 0, 0.5) 90px,
+        rgba(0, 255, 0, 0.5) 120px, rgba(0, 0, 255, 0.5) 150px,
+        rgba(75, 0, 130, 0.5) 180px, rgba(238, 130, 238, 0.5) 210px,
+        rgba(255, 0, 0, 0.5) 230px),
+      repeating-linear-gradient(23deg, red 50px, orange 100px,
+        yellow 150px, green 200px, blue 250px,
+        indigo 300px, violet 350px, red 370px);
+}
+
+#pic{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: -50px;
+	left: 135px;
+}
+
+.form-data{
+	font-weight: bold;
+	font-size: 20px;
+	left: 80px;
+	top: 40px;
+}
+
+.centerdiv{
+	background-image: radial-gradient(red, blue);
+	position: absolute;
+	height: 60%;
+	width: 30%;
+	top: 20%;
+	left: 35%;
+	border-radius: round;
+	box-shadow: 0 5px 12px black, 0 5px 12px black;
+}
+
+h2{
+	text-align: center;
+	color: white;
+	text-shadow: 0 5px 8px black, 0 5px 8px black;
+	font-size: 2em;
+	word-spacing: 10px;
+	font-weight: bolder;
+	margin-top: -40px;
+	margin-bottom: 20px;
+}
+
+.box{
+	width: 300px;
+	height: 25px;
+	margin-left: 35px;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	font-size: 25px;
+	border-radius: 8px;
+	text-align: center;
+	color: black;
+}
+
+.box1{
+	width: 300px;
+	height: 25px;
+	margin-left: 33px;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	font-size: 25px;
+	border-radius: 8px;
+	text-align: center;
+	color: black;
+}
+
+.box2{
+	width: 300px;
+	height: 25px;
+	margin-left: 35px;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	font-size: 25px;
+	border-radius: 8px;
+	text-align: center;
+	color: black;
+}
+
+.sub{
+	width: 300px;
+	height: 35px;
+	margin-left: 60px;
+	margin-top: 10px;
+	letter-spacing: 2px;
+	display: block;
+	font-size: 25px;
+	border-radius: 8px;
+	text-align: center;
+	background-image: linear-gradient(to left, orange, magenta);
+}
+
+h4{
+	background-image: linear-gradient(to right, orange, magenta);
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	width: 300px;
+	height: 30px;
+	margin-left: 40px;
+	letter-spacing: 2px;
+	display: block;
+	border-radius: 8px;
+
+}
+
+.tag{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: blue;
+}
+
